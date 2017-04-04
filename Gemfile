@@ -21,6 +21,7 @@ gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.0'
 gem 'devise'
+gem 'carrierwave'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
@@ -30,7 +31,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Unicorn as the app server
 # gem 'unicorn'
 
-# Use Capistrano for deployment
+# Use Capistrano for deploymentrails g scaffold Image user_id:integer title:string file:string
 # gem 'capistrano-rails', group: :development
 
 group :development, :test do
